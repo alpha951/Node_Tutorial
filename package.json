@@ -1,0 +1,23 @@
+{
+  "name": "node_tutorial",
+  "version": "1.0.0",
+  "description": "**This repository consists of Notes and Code of tutorial by John Smilga from Coding Addct Youtube Channel. I have made this repository for my own reference and for others who are interested in learnig**",
+  "main": "Node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alpha951/Node_Tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alpha951/Node_Tutorial/issues"
+  },
+  "homepage": "https://github.com/alpha951/Node_Tutorial#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
