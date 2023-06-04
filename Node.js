@@ -1,8 +1,26 @@
-/**
- * Node.Js  :- 
- *  1. Environment for running JS code outside of browser
- *  2. Built on Chrome's V8 JS engine
- *  3. Browser engine compiles our code to machine code
- *  4. It's is based on C++ and written in C++
- */
+// GLOBALS  - NO WINDOW !!!!
 
+// __dirname  - path to current directory
+// __filename - file name
+// require    - function to use modules (CommonJS)
+// module     - info about current module (file)
+// process    - info about env where the program is being executed
+
+//! import modules
+
+const names = require('./name.js')
+
+const john = 'John'
+const Susan = 'Susan'
+const peter = 'Peter'
+
+console.log(__dirname);
+console.log(__filename);
+console.log(module)
+
+//! es6 module
+// export default john
+export default Susan
+
+//! cjs module
+// module.exports = { john, Susan }
