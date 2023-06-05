@@ -322,8 +322,11 @@ We are transforming the async fs code into promise to avoid callback hells and b
 ### Refactored async code using Native Node.Js Method
 
 ```jsx
-const { readFile, writeFile } = require('fs').promises   // we if don't use promises on require('fs') then we will need to use `util` module to create promise version of 
-// readFile and writeFile funcitons. By using this method we are avoiding writing promises on our own unlike getText() function in above code block which returns a promise.
+const { readFile, writeFile } = require('fs').promises  
+/** if we don't use promises on require('fs') then we will need to use `util` module to create 
+promise version of  readFile and writeFile funcitons. By using this method we are avoiding writing promises on our 
+own unlike getText() function in above code block which returns a promise.
+**/
 
 // const util = require('util')
 // const readFilePromise = util.promisify(readFile)
