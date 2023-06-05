@@ -440,9 +440,9 @@ http
     // res.end(text)
 
     const fileStream = fs.createReadStream('./content/big.txt', 'utf8')
-    fileStream.on(***'open'***, () => {
-      **fileStream.pipe(res)  // data will be sent in chunks 
- //https://www.educative.io/answers/what-is-stream-module-pipe-in-nodejs**
+    fileStream.on('open', () => {
+      fileStream.pipe(res)  // data will be sent in chunks 
+ //https://www.educative.io/answers/what-is-stream-module-pipe-in-nodejs
     })
     fileStream.on('error', (err) => {
       res.end(err)
