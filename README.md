@@ -1,6 +1,6 @@
 Author :- [alpha951](https://github.com/alpha951)
 <br>
-**This repository consists of Notes and Code of tutorial by John Smilga from Coding Addict Youtube Channel. I have made this repository for my own reference and for others who are interested in learnig**
+**This repository consists of Notes and Code of tutorial by John Smilga from Coding Addict Youtube Channel. I have made this repository for my own reference and for others who are interested in learning**
 
 - **[Youtube Video Link](https://www.youtube.com/watch?v=TNV0_7QRDwY&list=PLnHJACx3NwAdT_8forzXYvx0o4A2VnoHX&index=8)**
 - **[Course-api (for slides and APIs)](https://course-api.com/)**
